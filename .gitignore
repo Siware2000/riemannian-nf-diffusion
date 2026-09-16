@@ -1,0 +1,95 @@
+﻿# ============================================
+# DATA (DO NOT COMMIT — publicly available elsewhere)
+# ============================================
+Data Set/
+data/
+*.nii
+*.nii.gz
+*.gz
+*.vhdr
+*.vmrk
+*.edf
+*.set
+*.fdt
+*.tsv
+*.bids
+
+# ============================================
+# VIRTUAL ENVIRONMENT
+# ============================================
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ============================================
+# IDE
+# ============================================
+.idea/
+.vscode/
+*.swp
+
+# ============================================
+# LARGE BINARY / DERIVED FILES
+# ============================================
+archive/
+tpl-onavg/
+tpl-onavg-master/
+tpl-onavg_freesurfer/
+*.npz
+*.npy
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+*.gif
+
+# ============================================
+# LATEX BUILD ARTIFACTS (keep .tex and .pdf)
+# ============================================
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+
+# ============================================
+# BACKUP FILES (contain outdated claims)
+# ============================================
+paper_backup*.tex
+paper_before*.tex
+paper_backup*.pdf
+*_backup.tex
+
+# ============================================
+# SURFACE TEMPLATES (publicly hosted elsewhere)
+# ============================================
+templates/
+*.pial
+*.surf
+*.pial.gii
+
+# ============================================
+# ONE-TIME UTILITY SCRIPTS
+# ============================================
+fix_imports.py
+fix_mojibake.py
+fix_first_person.py
+update_paper.py
+rename_files.py
+organize_project.py
+create_readme.py
+diagnose_lstm.py
